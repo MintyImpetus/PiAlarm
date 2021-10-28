@@ -31,8 +31,5 @@ if __name__ == "__main__":
             localtime = time.localtime()
             result = time.strftime("%S", localtime)
             time.sleep(0.1)
-            ans = WConio.getkey()
-            if msvcrt.kbhit():
-                StopPlaying()
         Read()
         
